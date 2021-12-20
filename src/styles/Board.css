@@ -1,0 +1,155 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #0B0C13;
+}
+
+.repo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: #6A747D;
+}
+
+.repo:not(:last-child) {
+  border-bottom: 2px solid #171B21;
+}
+
+.repo p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-align: left;
+}
+
+.repo svg {
+  margin-right: 5px;
+  color: #6A747D;
+}
+
+.left_repo {
+  display: flex;
+  max-width: 80%;
+  flex-direction: column;
+}
+
+.left_repo > p:nth-child(1) {
+  font-size: 20px;
+  color: #509FF6;
+}
+
+.left_repo > p:nth-child(2) {
+  margin: 10px 0;
+}
+
+.left_repo > div {
+  display: flex;
+  align-items: center;
+}
+
+.left_repo > div > * {
+  padding-right: 20px;
+}
+
+.left_repo > div > div {
+  display: flex;
+}
+
+.left_repo > div > div > img {
+  width: 32px;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.right_repo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right_repo > button {
+  color: white;
+  background-color: #111A20;
+  border: 2px solid #171B21;
+  text-transform: none;
+}
+
+.dev {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #6A747D;
+  text-align: left;
+}
+
+.dev:not(:last-child) {
+  border-bottom: 2px solid #171B21;
+}
+
+.dev svg {
+  margin-right: 5px;
+}
+
+.dev > div:first-child {
+  display: flex;
+  width: 40%;
+}
+
+.dev > div:first-child > span {
+  padding-right: 20px;
+}
+
+.dev > div:first-child > img {
+  width: 64px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.dev > div:first-child > div > h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #509FF6;
+}
+
+.dev > div:first-child > div > p {
+  margin: 0;
+}
+
+.dev > div:nth-child(2) {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dev > div:nth-child(2) > p {
+  display: flex;
+  align-items: center;
+  margin: 2px 0;
+}
+
+.dev > div:nth-child(2) > p:nth-child(2) {
+  font-size: 18px;
+  color: #509FF6;
+}
+
+.dev > div:nth-child(2) > p:nth-child(1) > svg {
+  transform: rotateY(180deg);
+  color: #BC4C00;
+  font-size: 20px;
+}
+
+.dev > div:nth-child(2) > p:nth-child(2) > svg {
+  color: #6A747D;
+}
+
+.dev > div:nth-child(3) > button {
+  color: white;
+  background-color: #111A20;
+  border: 2px solid #171B21;
+  text-transform: none;
+  margin-left: 10px;
+}
